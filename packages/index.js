@@ -7,6 +7,8 @@ import components from "./components";
 export const install = function (app) {
   if (install.installed) return;
   components.forEach((c) => {
+    console.log(c.name);
+    
     app.use(c);
   });
 };
