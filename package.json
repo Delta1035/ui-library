@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit":"cz"
   },
   "keywords": [],
   "author": "",
@@ -16,12 +17,18 @@
   },
   "devDependencies": {
     "commitizen": "^4.3.1",
+    "cz-conventional-changelog": "^3.3.0",
     "cz-customizable": "^7.3.0",
     "husky": "^9.1.7"
   },
-  "husky":{
-    "hooks":{
-      "prepare-commit-msg":"sh ./bash/prepare-commit-msg.sh"
+  "husky": {
+    "hooks": {
+      "prepare-commit-msg": "sh ./bash/prepare-commit-msg.sh"
+    }
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
     }
   }
 }
