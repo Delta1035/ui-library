@@ -1,6 +1,6 @@
-import { componentInstall } from "../../utils/install";
-import Button from "./src/index.vue";
+import { componentInstall } from '../../utils/install'
+import Button from './src/index.vue'
 // 提供按需加载的方式
-export const AButton = componentInstall(Button);
+export const AButton = componentInstall(Button)
 // 到处组件
-export default AButton;
+export default AButton

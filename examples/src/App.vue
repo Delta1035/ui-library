@@ -1,10 +1,7 @@
-<script setup lang="ts">
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  <h1>
-    hello
-  </h1>
+  <h1>hello</h1>
   <a-button>123</a-button>
 </template>
 
