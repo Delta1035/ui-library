@@ -10,8 +10,18 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@ui-library/utils": "workspace:*",
     "@ui-library/components": "workspace:*",
-    "@ui-library/hook": "workspace:*"
+    "@ui-library/hook": "workspace:*",
+    "@ui-library/utils": "workspace:*"
+  },
+  "devDependencies": {
+    "commitizen": "^4.3.1",
+    "cz-customizable": "^7.3.0",
+    "husky": "^9.1.7"
+  },
+  "husky":{
+    "hooks":{
+      "prepare-commit-msg":"sh ./bash/prepare-commit-msg.sh"
+    }
   }
 }
