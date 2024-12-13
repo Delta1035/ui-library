@@ -1,7 +1,7 @@
 {
-  "$schema":"https://json.schemastore.org/package",
+  "$schema": "https://json.schemastore.org/package",
   "name": "ui-library",
-  "private":true,
+  "private": true,
   "version": "1.0.0",
   "description": "",
   "type": "module",
@@ -10,7 +10,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "commit": "cz",
     "lint": "npx eslint .",
-    "format": "npx prettier . --write"
+    "format": "npx prettier . --write",
+    "prepare": "husky"
   },
   "keywords": [],
   "author": "",
