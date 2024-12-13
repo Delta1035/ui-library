@@ -11,15 +11,15 @@ function calc(num) {
 let tunnel;
 let id;
 
-parentPort.on('message',msg=>{
-    if(msg.type=='startup'){
-        id = msg.id;
-        tunnel = msg.channel;
-        tunnel.on('message',_msg=>{
-            tunnel.postMessage({
-                id,
-                res:calc(_msg.value)
-            })
-        })
-    }
-})
+parentPort.on('message', (msg) => {
+  if (msg.type == 'startup') {
+    id = msg.id;
+    tunnel = msg.channel;
+    tunnel.on('message', (_msg) => {
+      tunnel.postMessage({
+        id,
+        res: calc(_msg.value)
+      });
+    });
+  }
+});

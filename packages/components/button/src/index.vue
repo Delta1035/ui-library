@@ -1,7 +1,7 @@
 <script>
 export default {
   name: 'a-button'
-}
+};
 </script>
 
 <template>

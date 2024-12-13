@@ -100,7 +100,7 @@ module.exports = {
       value: 'impr'
     }
   ]
-}
+};
 ```
 
 - 配置文件package.json
@@ -141,7 +141,7 @@ export default [
       'no-constant-binary-expression': 'error'
     }
   }
-]
+];
 ```
 
 ## prettier

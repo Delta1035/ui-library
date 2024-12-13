@@ -66,5 +66,5 @@ export default import(() => {
     upperCaseSubject: true,
     // 标题必填
     requiredSubject: true
-  }
-})
+  };
+});

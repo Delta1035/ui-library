@@ -1,6 +1,6 @@
 import os from 'node:os';
 import { MessageChannel, Worker } from 'node:worker_threads';
-console.log('核心数>>',os.cpus().length);
+console.log('核心数>>', os.cpus().length);
 const poolSize = os.cpus().length;
 
 const workers = [];
