@@ -1,4 +1,5 @@
 packages:
+  - node-examples
   - examples # 存放组件测试代码
   - docs # 存放组件文档
   - packages/* # 目录下都是组件包

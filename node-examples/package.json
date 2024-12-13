@@ -1,18 +1,16 @@
 {
-  "name": "@ui-library-pnpm/utils",
+  "name": "@ui-library/node-examples",
   "version": "1.0.0",
-  "description": "",
-  "files": [
-    "./dist/*"
-  ],
-  "publishConfig": {
-    "access": "public"
-  },
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "rxjs": "^7.8.1"
+  }
 }

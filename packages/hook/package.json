@@ -1,6 +1,12 @@
 {
   "name": "@ui-library-pnpm/hook",
   "version": "1.0.0",
+  "files": [
+    "./dist/*"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "",
   "main": "index.js",
   "scripts": {

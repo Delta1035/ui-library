@@ -1,6 +1,6 @@
 # @ui-library-pnpm/cli
 
-## 2.0.0
+## 1.0.0
 
 ### Major Changes
 
@@ -9,4 +9,4 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @ui-library-pnpm/core@2.0.0
+  - @ui-library-pnpm/core@1.0.0
