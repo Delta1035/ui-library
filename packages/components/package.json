@@ -1,5 +1,5 @@
 {
-  "name": "@ui-library/components",
+  "name": "@ui-library-pnpm/components",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",

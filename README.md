@@ -6,6 +6,13 @@
 # 在 cli 包添加 core 包为依赖：
 # --filter 指定在哪个包下执行 add 命令
 # 加上 --workspace 就是从本地查找
+
+# pnpm exec 来执行命令，用 --filter 来指定在哪些包执行命令。
+pnpm --filter cli exec npx tsc --init
+# -r 是递归的意思
+pnpm -r exec npx tsc
+
+
 ```
 
 ## Commitizen
@@ -138,3 +145,12 @@ export default [
 ```
 
 ## prettier
+
+
+## changeset
+```sh
+pnpm add --save-dev -w @changesets/cli prettier-plugin-organize-imports prettier-plugin-packagejson
+
+npx changeset init
+
+```
