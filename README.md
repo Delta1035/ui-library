@@ -146,8 +146,8 @@ export default [
 
 ## prettier
 
-
 ## changeset
+
 ```sh
 pnpm add --save-dev -w @changesets/cli prettier-plugin-organize-imports prettier-plugin-packagejson
 
